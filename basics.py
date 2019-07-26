@@ -14,3 +14,7 @@ print(webpage)
   '''
   This builds on the above, delivering the content from the page
   '''
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(webpage, "html.parser")
+
+print(soup)
