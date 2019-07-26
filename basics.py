@@ -18,3 +18,11 @@ from bs4 import BeautifulSoup
 soup = BeautifulSoup(webpage, "html.parser")
 
 print(soup)
+
+
+#This is how you select individual parts
+
+print(soup.p)
+print(soup.p.string)
+
+#Note P is referring to <p>
