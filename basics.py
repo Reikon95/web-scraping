@@ -28,3 +28,8 @@ print(soup.p.string)
 #Note P is referring to <p>
 for parent in soup.div.parents:
   print(parent)
+
+#finding all links on a page  
+turtle_links = soup.find_all('a')
+print(turtle_links)
+  
